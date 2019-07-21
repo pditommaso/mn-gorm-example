@@ -1,0 +1,15 @@
+micronaut:
+  application:
+    name: example-micronaut-gorm
+dataSource:
+  pooled: true
+  dbCreate: update
+  url: jdbc:h2:mem:devDb
+  driverClassName: org.h2.Driver
+  username: sa
+  password:
+hibernate:
+  show_sql: true
+#grails:
+#  gorm:
+#    failOnError: false
